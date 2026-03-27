@@ -1,0 +1,112 @@
+# Build outputs
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.out
+
+# Assembled binaries
+*.bin
+
+# Executables
+as/poem-as
+emu/poem-emu
+
+# Dependency files
+*.d
+
+# Debug and profiling
+*.dSYM/
+*.su
+gmon.out
+callgrind.out.*
+cachegrind.out.*
+perf.data
+perf.data.old
+
+# Address sanitizer / valgrind
+vgcore.*
+
+# Core dumps
+core
+core.*
+
+# Editor: Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+[._]*.un~
+Session.vim
+.netrwhist
+tags
+TAGS
+
+# Editor: Emacs
+\#*\#
+.\#*
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Editor: VS Code
+.vscode/
+*.code-workspace
+
+# Editor: JetBrains (CLion etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Editor: Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Editor: Eclipse
+.project
+.cproject
+.settings/
+.classpath
+
+# Editor: Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# OS: macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# OS: Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# OS: Linux
+.Trash-*
+.nfs*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.patch
